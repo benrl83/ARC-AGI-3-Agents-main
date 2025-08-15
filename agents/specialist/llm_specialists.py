@@ -3,7 +3,7 @@ import json
 import logging
 import os
 from openai import OpenAI as OpenAIClient
-from agents.structs import GameAction # <-- Import GameAction
+from agents.structs import GameAction
 
 logger = logging.getLogger(__name__)
 
@@ -14,17 +14,21 @@ class LLMSpecialists:
         self.model = "gpt-4o-mini"
         self._system_message_detective = {
             "role": "system",
-            "content": "You are a detective analyzing game mechanics. Based on the event history, you must identify patterns and propose a strategic goal. Do NOT repeat failed strategies. You must call a tool."
+            "content": "You are a detective analyzing game mechanics. Based on a summary of the agent's experiences, you must identify patterns and propose a strategic goal. Do NOT repeat failed strategies. You must call a tool."
         }
         self._system_message_grandmaster = {
             "role": "system",
-            "content": "You are a grandmaster tactician. Given a strategic goal and game history, create a short, concrete sequence of actions to achieve it. You must call the 'submit_plan' tool."
+            "content": "You are a grandmaster tactician. Given a strategic goal and a summary of recent events, create a short, concrete sequence of actions to achieve it. You must call the 'submit_plan' tool."
         }
 
-    def detective_analyze_and_hypothesize(self, history: list[dict], last_failed_goal: str | None) -> dict:
-        user_prompt = f"Event History:\n{json.dumps(history, indent=2)}"
+    # --- UPGRADE: Accepts a concise summary instead of the full history ---
+    def detective_analyze_and_hypothesize(self, memory_summary: dict, last_failed_goal: str | None) -> dict:
+        """Analyzes a summary of history to infer rules and propose a high-level goal."""
+        
+        user_prompt = f"Memory Summary:\n{json.dumps(memory_summary, indent=2)}"
         if last_failed_goal:
-            user_prompt += f"\n\nIMPORTANT: The previous strategic goal '{last_failed_goal}' failed because the plan had no effect. Propose a DIFFERENT and more creative strategic goal. Prioritize actions that have previously shown to be successful (see 'success' flag in history)."
+            user_prompt += f"\n\nIMPORTANT: The previous strategic goal '{last_failed_goal}' failed. Propose a DIFFERENT and more creative strategic goal. Prioritize actions that have been successful in the past."
+
         messages = [self._system_message_detective, {"role": "user", "content": user_prompt}]
         tools = [{ "type": "function", "function": { "name": "submit_goal_and_hypotheses", "description": "Submit inferred hypotheses and a strategic goal.", "parameters": { "type": "object", "properties": { "hypotheses": { "type": "array", "items": {"type": "string"}, "description": "A list of beliefs about game rules." }, "goal": { "type": "string", "description": "A single, high-level strategic goal to pursue." } }, "required": ["hypotheses", "goal"] } } }]
         
@@ -39,15 +43,11 @@ class LLMSpecialists:
             logger.error(f"LLM Detective call failed: {e}")
             return {"goal": "Explore randomly due to error.", "hypotheses": []}
 
-    # --- UPGRADE: Give the Grandmaster a list of valid actions ---
-    def grandmaster_create_plan(self, goal: str, history: list[dict]) -> list[str]:
-        # Get the list of all valid action names
+    # --- UPGRADE: Accepts a concise summary instead of the full history ---
+    def grandmaster_create_plan(self, goal: str, memory_summary: dict) -> list[str]:
         valid_actions = [action.name for action in GameAction]
-        
-        prompt = f"Goal: {goal}\n\nRecent History:\n{json.dumps(history, indent=2)}\n\nIMPORTANT: You can ONLY use actions from this list: {valid_actions}"
+        prompt = f"Goal: {goal}\n\nRecent Events Summary:\n{json.dumps(memory_summary, indent=2)}\n\nIMPORTANT: You can ONLY use actions from this list: {valid_actions}"
         messages = [self._system_message_grandmaster, {"role": "user", "content": prompt}]
-        
-        # We can also constrain the tool definition itself
         tools = [{ "type": "function", "function": { "name": "submit_plan", "description": "Submit a sequence of actions.", "parameters": { "type": "object", "properties": { "action_sequence": { "type": "array", "items": {"type": "string", "enum": valid_actions}, "description": "A list of action names from the allowed list." } }, "required": ["action_sequence"] } } }]
         
         try:

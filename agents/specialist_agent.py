@@ -1,9 +1,11 @@
 # agents/specialist_agent.py
 import logging
 from enum import Enum, auto
+from typing import Optional, Any # <-- Import Optional and Any
+import json
 
 from agents.agent import Agent
-from agents.structs import FrameData, GameAction, GameState # <-- Make sure GameState is imported
+from agents.structs import FrameData, GameAction, GameState
 from agents.specialist.input_specialist import InputSpecialist
 from agents.specialist.change_detection_specialist import ChangeDetectionSpecialist
 from agents.specialist.memory_specialist import MemorySpecialist
@@ -48,11 +50,34 @@ class SpecialistAgent(Agent):
     def is_done(self, frames: list[FrameData], latest_frame: FrameData) -> bool:
         return latest_frame.state == GameState.WIN or self.action_counter >= self.MAX_ACTIONS
 
+    # --- NEW FUNCTION: The "Thinking Cap" memory summarizer ---
+    def _summarize_memory_for_llm(self) -> dict:
+        """Creates a small, token-efficient summary of the agent's memory."""
+        all_events = self.memory.get_full_history()
+        action_stats = {}
+        
+        for event in all_events:
+            action_name = event['action']['name']
+            if action_name not in action_stats:
+                action_stats[action_name] = {'tries': 0, 'successes': 0}
+            action_stats[action_name]['tries'] += 1
+            if event['success']:
+                action_stats[action_name]['successes'] += 1
+        
+        # Get the last 5 successful events to give context
+        last_successful_events = [e for e in all_events if e['success']][-5:]
+
+        return {
+            "total_turns_lived": len(all_events),
+            "current_hypotheses": self.hypotheses,
+            "action_effectiveness": action_stats,
+            "recent_successful_events": last_successful_events
+        }
+
     def choose_action(self, frames: list[FrameData], latest_frame: FrameData) -> GameAction:
-        # --- UPGRADE: Add a check for empty frame data, which can happen after an error ---
         if not latest_frame.frame:
             logger.error("Received an empty frame, possibly after a game error. Re-syncing with RESET.")
-            self.phase = AgentPhase.STARTING # Force a reset
+            self.phase = AgentPhase.STARTING
             
         if self.phase == AgentPhase.STARTING:
             logger.info("--- STARTING phase: Sending initial RESET ---")
@@ -85,14 +110,18 @@ class SpecialistAgent(Agent):
 
             if self.phase == AgentPhase.HYPOTHESIS:
                 logger.info("--- Entering HYPOTHESIS phase ---")
-                analysis = self.llm.detective_analyze_and_hypothesize(self.memory.get_full_history(), self.last_failed_goal)
+                # --- UPGRADE: Use the summary instead of full history ---
+                memory_summary = self._summarize_memory_for_llm()
+                analysis = self.llm.detective_analyze_and_hypothesize(memory_summary, self.last_failed_goal)
                 self.hypotheses = analysis.get("hypotheses", [])
                 self.current_goal = analysis.get("goal", "Continue exploring.")
                 self.phase = AgentPhase.EXECUTION
 
             if self.phase == AgentPhase.EXECUTION:
                 logger.info("--- Entering EXECUTION phase: creating new plan ---")
-                plan_actions = self.llm.grandmaster_create_plan(self.current_goal, self.memory.get_recent_history())
+                # --- UPGRADE: Use the summary instead of full history ---
+                memory_summary = self._summarize_memory_for_llm()
+                plan_actions = self.llm.grandmaster_create_plan(self.current_goal, memory_summary)
                 self.current_plan = [GameAction.from_name(name) for name in plan_actions if "ACTION" in name]
                 if not self.current_plan:
                     logger.info("Plan invalid. Reverting to HYPOTHESIS.")
@@ -117,15 +146,13 @@ class SpecialistAgent(Agent):
             self.data = None
         return action_to_take
 
-    # --- UPGRADE: Fix the cleanup function ---
-    def cleanup(self, scorecard) -> None:
+    # --- UPGRADE: Fix the cleanup function signature ---
+    def cleanup(self, scorecard: Optional[Any] = None) -> None:
         """Called when a game is over. Saves the agent's memory via the manager."""
-        # The scorecard object passed here might be different from the one in the main agent.
-        # It's safer to use self.game_id which is set when the agent is created.
         logger.info(f"--- Game Over for {self.game_id}. Saving brain. ---")
         self.memory_manager.save_state(
             game_id=self.game_id,
             memory_events=self.memory.get_full_history(),
             hypotheses=self.hypotheses
         )
-        # We don't call super().cleanup() here as the base method is empty and this is our final step.
+        # The base class cleanup is empty, so no need to call super().

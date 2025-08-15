@@ -1,0 +1,7527 @@
+{
+  "hypotheses": [
+    "Only carry on with ACTION6 as it has shown instances of success in the past events and is the only action that resulted in positive 'pixels_changed' values and game state changes.",
+    "Avoid previously failed actions such as ACTION1, ACTION2, ACTION3, ACTION4, and ACTION5 as they have consistently resulted in no effect or success.",
+    "The pattern indicates that after multiple failures, there may still be opportunities for success by continuing or modifying the previously effective action, ACTION6."
+  ],
+  "memory_events": [
+    {
+      "turn": 1,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 2,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 3,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 4,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 5,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 6,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 7,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 8,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 9,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 10,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              1
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              1
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              2
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              2
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              3
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              3
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              37,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              4
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              4
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              5
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              5
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              6
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              6
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              21,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              22,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              23,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              24,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              25,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              26,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              27,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              28,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              29,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              30,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              31,
+              10
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              20,
+              11
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              21,
+              11
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 151,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              7
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              7
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              8
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              8
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              9
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              9
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              10
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 8,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              10
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              11
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              11
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              12
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              12
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              13
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              5,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              6,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              7,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              8,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              9,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              10,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              11,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              12,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              13,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              14,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              15,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              4,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              5,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              13
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              14
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              14
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              15
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              15
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              16
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              12,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              13,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              14,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              15,
+              26
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              4,
+              27
+            ],
+            "before": 8,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              27
+            ],
+            "before": 8,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              16
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              17
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              17
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              18
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              18
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              19
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              5,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              6,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              7,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              8,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              9,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              10,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              11,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              12,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              13,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              14,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              15,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              4,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              5,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 19,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 20,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 21,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 150,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              19
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              20
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              20
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              21
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              21
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              22
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 144,
+        "score_change": 1,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              37,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              38,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              39,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              40,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              41,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              42,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          },
+          {
+            "pos": [
+              43,
+              27
+            ],
+            "before": 9,
+            "after": 8
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 1410,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              1,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              2,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              3,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              4,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              5,
+              0
+            ],
+            "before": 0,
+            "after": 14
+          },
+          {
+            "pos": [
+              63,
+              3
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              0,
+              4
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              63,
+              4
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              0,
+              5
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              63,
+              5
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              0,
+              6
+            ],
+            "before": 11,
+            "after": 12
+          },
+          {
+            "pos": [
+              56,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              57,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              58,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              59,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              60,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              61,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              62,
+              6
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              63,
+              6
+            ],
+            "before": 11,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              3
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              4
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              4
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              5
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              5
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              6
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              6
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              7
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              7
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              8
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              8
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              9
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              9
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              10
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              10
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 19,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              11
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              11
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              12
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              12
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              13
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 20,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              13
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              14
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              14
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              15
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              15
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 21,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              16
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              16
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              17
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              17
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              18
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 22,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 23,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 24,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              18
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              19
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              19
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              20
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              20
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              37,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              38,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              4,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              12,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              13,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              14,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              15,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              4,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              23
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              24
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              24
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              25
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              25
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              12,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              13,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              14,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              15,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              4,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              26
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              12,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              13,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              14,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              15,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              63,
+              26
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              27
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              4,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              63,
+              28
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              29
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              29
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              30
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              30
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 148,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              4,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              5,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              6,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              7,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              8,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              9,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              10,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              11,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              12,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              13,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              14,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              15,
+              26
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              4,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              5,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              6,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              7,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              8,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              9,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              10,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              11,
+              27
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              33
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              33
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              34
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              34
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              35
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              4,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              5,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              6,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              7,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              8,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              9,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              10,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              11,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              12,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              13,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              14,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              15,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              4,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              5,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              6,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              7,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              8,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              9,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              10,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              11,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 19,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 20,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 21,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 22,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              36,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              26
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              27
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              36,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              4,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              12,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              13,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              14,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              15,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              4,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              5,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              6,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              7,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              8,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              9,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              10,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              11,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              10
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              11
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              10
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              11
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              23,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              24,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              25,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              26,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              27,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              20,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              28,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              29,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              30,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              31,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              20,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              21,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              22,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              23,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              24,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              25,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              26,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              27,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": "GAME_OVER",
+        "specific_changes": [
+          {
+            "pos": [
+              36,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              37,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              38,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              39,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              40,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              41,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              42,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              43,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              44,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              45,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              46,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              47,
+              42
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              36,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              37,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              38,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              39,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              40,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              41,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              42,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          },
+          {
+            "pos": [
+              43,
+              43
+            ],
+            "before": 9,
+            "after": 12
+          }
+        ]
+      },
+      "success": true
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 149,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": [
+          {
+            "pos": [
+              0,
+              1
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              1
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              2
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              63,
+              2
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              0,
+              3
+            ],
+            "before": 12,
+            "after": 11
+          },
+          {
+            "pos": [
+              36,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              39,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              40,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              41,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              42,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              43,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              44,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              45,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              46,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              47,
+              42
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              36,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              37,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          },
+          {
+            "pos": [
+              38,
+              43
+            ],
+            "before": 12,
+            "after": 9
+          }
+        ]
+      },
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,2082 @@
+{
+  "hypotheses": [
+    "Consistently attempting the same actions that have failed in previous turns will not yield a success, therefore should be avoided.",
+    "There may be conditions that need to be met for successful actions, which have not been clearly identified yet.",
+    "It's implied that actions have different probabilities of success, and repeated attempts of unsuccessful actions are futile.",
+    "Patterns or combinations of actions may unlock different game states or scores."
+  ],
+  "memory_events": [
+    {
+      "turn": 1,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 2,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 3,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 4,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 5,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 6,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 7,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 8,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 9,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 10,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 19,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 20,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 21,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 22,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 23,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 24,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 25,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION3",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION5",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 14,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 15,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 16,
+      "action": {
+        "name": "ACTION2",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 17,
+      "action": {
+        "name": "ACTION4",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 18,
+      "action": {
+        "name": "ACTION1",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 11,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 12,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    },
+    {
+      "turn": 13,
+      "action": {
+        "name": "ACTION6",
+        "data": null
+      },
+      "effect_delta": {
+        "pixels_changed": 0,
+        "score_change": 0,
+        "game_state_change": null,
+        "specific_changes": []
+      },
+      "success": false
+    }
+  ]
+}
