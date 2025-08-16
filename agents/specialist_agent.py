@@ -26,29 +26,24 @@ class SpecialistAgent(Agent):
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        # ... (init specialists as before) ...
         self.input_specialist = InputSpecialist()
         self.change_detector = ChangeDetectionSpecialist()
         self.memory = MemorySpecialist()
         self.knowledge = KnowledgeSpecialist()
         self.llm = LLMSpecialists()
         self.memory_manager = PersistentMemoryManager()
-        
         loaded_state = self.memory_manager.load_state(self.game_id)
-        if loaded_state.get("knowledge"):
+        if loaded_state and loaded_state.get("knowledge"):
             self.knowledge.knowledge = loaded_state["knowledge"]
-        
-        if len(self.knowledge.knowledge['known_actions']) > 0 or len(self.knowledge.knowledge['object_hypotheses']) > 0 :
+        if self.knowledge.knowledge['strategic_model']['current_goal'] != "Discover a successful action.":
             logger.info("Loaded prior knowledge. Starting with goal-oriented execution.")
             self.phase = AgentPhase.EXECUTION
         else:
             self.phase = AgentPhase.STARTING
-
-        self.current_goal = "Discover a successful action."
         self.current_plan: list[GameAction] = []
         self.last_frame: FrameData | None = None
         self.last_action: GameAction | None = None
-
-        # --- NEW "Boredom" Mechanic ---
         self.recent_goals = []
 
     def is_done(self, frames: list[FrameData], latest_frame: FrameData) -> bool:
@@ -56,11 +51,8 @@ class SpecialistAgent(Agent):
 
     def choose_action(self, frames: list[FrameData], latest_frame: FrameData) -> GameAction:
         if not latest_frame.frame:
-            logger.error("Received empty frame. Re-syncing with RESET.")
             self.phase = AgentPhase.STARTING
-            
         if self.phase == AgentPhase.STARTING:
-            logger.info("--- STARTING: Sending initial RESET ---")
             self.phase = AgentPhase.EXPLORATION
             self.last_frame = latest_frame
             self.last_action = GameAction.RESET
@@ -70,42 +62,45 @@ class SpecialistAgent(Agent):
             delta = self.change_detector.detect_delta(self.last_frame, latest_frame)
             self.memory.record_event(self.last_action, delta)
             last_event = self.memory.events[-1]
-            
+            self.knowledge.update_mechanics_from_event(last_event)
             if self.phase == AgentPhase.EXPLORATION and last_event['success']:
-                logger.critical(f"--- BREAKTHROUGH! Action '{last_event['action']['name']}' had an effect. Switching to INVESTIGATION. ---")
+                logger.critical(f"--- BREAKTHROUGH! Switching to INVESTIGATION. ---")
                 self.phase = AgentPhase.INVESTIGATION
                 self.current_plan = []
 
         if not self.current_plan:
-            # --- UPGRADE: Boredom check ---
-            # If the last 3 goals were the same, get bored and explore.
             if len(self.recent_goals) > 3 and len(set(self.recent_goals[-3:])) == 1:
-                logger.critical("--- AGENT IS BORED: Stuck in a thought loop. Forcing broad exploration. ---")
+                logger.critical("--- AGENT BORED: Forcing broad exploration. ---")
                 self.phase = AgentPhase.EXPLORATION
-                self.recent_goals = [] # Reset goals to allow new thinking later
+                self.recent_goals = []
             
             if self.phase == AgentPhase.INVESTIGATION or self.phase == AgentPhase.EXECUTION:
-                logger.info(f"--- Entering {self.phase.name} phase: Consulting Detective ---")
-                analysis = self.llm.detective_propose_experiment(self.knowledge.get_knowledge_summary(), self.memory.get_recent_history(5))
-                self.knowledge.update_knowledge(analysis.get("hypotheses", []), analysis.get("goal", ""))
-                self.current_goal = analysis.get("goal", "Continue exploring.")
+                logger.info(f"--- Entering {self.phase.name} phase: Consulting HQ Analyst ---")
                 
-                # Track the new goal for the boredom check
-                self.recent_goals.append(self.current_goal)
+                # --- UPGRADE: Give the Detective the current "crime scene photo" ---
+                analysis = self.llm.detective_update_strategy(
+                    self.knowledge.get_knowledge_summary(), 
+                    self.memory.get_recent_history(5),
+                    latest_frame # Pass the current visual frame
+                )
+                
+                self.knowledge.update_strategic_model(analysis.get("hypotheses", []), analysis.get("goal", ""))
+                self.recent_goals.append(self.knowledge.knowledge['strategic_model']['current_goal'])
                 
                 logger.info("--- Consulting Grandmaster to create a plan ---")
-                plan_actions = self.llm.grandmaster_create_plan(self.current_goal, self.knowledge.get_knowledge_summary())
+                plan_actions = self.llm.grandmaster_create_plan(
+                    self.knowledge.knowledge['strategic_model']['current_goal'], 
+                    self.knowledge.get_knowledge_summary()
+                )
                 self.current_plan = [GameAction.from_name(name) for name in plan_actions if "ACTION" in name]
-                
                 if not self.current_plan:
-                    logger.warning("Grandmaster failed to create a plan. Reverting to exploration.")
                     self.phase = AgentPhase.EXPLORATION
             
         if self.current_plan:
             action_to_take = self.current_plan.pop(0)
             if not self.current_plan:
-                logger.info("Plan complete. Will re-evaluate next turn.")
-                self.phase = AgentPhase.EXECUTION if self.knowledge.knowledge['game_goal_hypothesis']['goal'] != "Unknown" else AgentPhase.INVESTIGATION
+                # After a plan, we assume we need to think again.
+                self.phase = AgentPhase.EXECUTION
         else:
             logger.info(f"--- In EXPLORATION phase (Turn {self.memory.turn_number + 1}) ---")
             action_to_take = self.input_specialist.generate_exploratory_action()
@@ -121,6 +116,5 @@ class SpecialistAgent(Agent):
         self.memory_manager.save_state(
             game_id=self.game_id,
             memory_events=self.memory.get_full_history(),
-            hypotheses=[], # This is now part of the knowledge object
             knowledge=self.knowledge.get_knowledge_summary()
         )
