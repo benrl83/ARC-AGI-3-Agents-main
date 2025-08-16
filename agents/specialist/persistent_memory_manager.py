@@ -17,16 +17,15 @@ class PersistentMemoryManager:
         """Generates a consistent filename for a game's brain file."""
         return os.path.join(self.memory_dir, f"brain_{game_id}.json")
 
-    # --- THE FIX IS HERE: Add 'knowledge' as an argument ---
-    def save_state(self, game_id: str, memory_events: list, hypotheses: list, knowledge: dict):
-        """Saves the agent's current memory and beliefs to a file."""
+    # --- THE FIX IS HERE: The function now correctly accepts 'knowledge' ---
+    def save_state(self, game_id: str, memory_events: list, knowledge: dict):
+        """Saves the agent's current knowledge and raw memory to a file."""
         filepath = self._get_filepath(game_id)
         logger.info(f"Saving agent brain for game '{game_id}' to {filepath}")
         
-        # We now save the distilled knowledge as the primary object
         state_dump = {
             "knowledge": knowledge,
-            "raw_memory_events": memory_events, # Save raw events for debugging
+            "raw_memory_events": memory_events, # Save raw events for our own analysis
         }
         
         try:
@@ -36,7 +35,7 @@ class PersistentMemoryManager:
             logger.error(f"Failed to save brain file for {game_id}: {e}")
 
     def load_state(self, game_id: str) -> dict:
-        """Loads the agent's memory and beliefs if a brain file exists."""
+        """Loads the agent's knowledge if a brain file exists."""
         filepath = self._get_filepath(game_id)
         if os.path.exists(filepath):
             try:
@@ -47,5 +46,4 @@ class PersistentMemoryManager:
                 logger.error(f"Failed to load or parse brain file for {game_id}: {e}")
         
         logger.info(f"No previous brain found for '{game_id}'. Starting with a blank page.")
-        # Return a structure that matches what we save
-        return {"knowledge": None, "raw_memory_events": []}
+        return {} # Return empty dict if no brain is found
